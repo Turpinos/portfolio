@@ -21,11 +21,11 @@ header{
 
 header div img{
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10px;
+    right: 10px;
     z-index: 2;
     background-color: #3183e1;
-    opacity: 0.7;
+    opacity: 0.9;
     border: 1px rgb(255, 255, 255) solid;
     width: 3rem;
     border-radius: 2rem;
@@ -67,7 +67,8 @@ nav ul li{
 
 #home{
     width: 100%;
-    margin-block: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,7 +79,7 @@ nav ul li{
 
 #bio{
     margin-block: 3rem;
-    animation-delay: 100ms;
+    animation-delay: 500ms;
     animation-duration: 1000ms;
     animation-name: loadBio;
     animation-fill-mode: backwards;
@@ -292,6 +293,7 @@ nav ul li{
 }
 
 #projet h2{
+    padding-left: 1rem;
     font-size: 2.5rem;
     color: #3183e1;
 }
@@ -542,6 +544,7 @@ nav ul li{
 
 /*Home*/
 #home{
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
 }
@@ -576,6 +579,10 @@ nav ul li{
 
 #projet{
     padding-inline: 1rem;
+}
+
+#projet h2{
+    padding-inline: 0px;
 }
 
 #projet article h3{
