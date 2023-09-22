@@ -15,9 +15,9 @@
         <nav>
             <ul>
                 <li id="acc"><a href="#top">Accueil</a></li>
-                <li id="p2"><a href="#presentation">À propos</a></li>
+                <li id="p2"><a href="#presentation">Contexte</a></li><!-- Modifier le nom -->
                 <li id="p3"><a href="#projet">Projets</a></li>
-                <li id="p4"><a href="#contact">Contact & Réseaux</a></li>
+                <li id="p4"><a href="#contact">À propos</a></li>
             </ul>
         </nav>
         <div>
@@ -44,14 +44,13 @@
         </section>
         <section id="presentation">
             <div>
-                <h2>Plus en détails</h2>
+                <h2>Contexte</h2>
                 <p>"Dans un monde en constante évolution, le numérique est actuellement un environnement en vive expansion. Multi-usage, il permet le développement d'outils de communication, de divertissement, d'administration de données ou encore d'outils améliorant le quotidient d'une journée de travail etc.. En tant que développeur web, je suis un acteur indispensable à la transformation de vos plus belles idées, en projets réaliste et concret."</p>
             </div>
             <div>
                 <h2>Langages</h2>
                 <article>
                     <ul>
-                        <!--Ajouter logo des langages-->
                         <li><img src="img/html-5.png" alt="html"><p>HTML</p></li>
                         <li><img src="img/css-3.png" alt="css"><p>CSS</p></li>
                         <li><img src="img/js.png" alt="Javascript"><p>Javascript</p></li>
@@ -94,12 +93,14 @@
                 <p><b>Bio:</b> Actuellement en reconversion professionnelle, je prépare un titre de "développeur web et web mobile fullstack". Passionnée par l'informatique, la musique et les sports mécaniques, mon esprit est en constamment stimulée. Faire de la veille, résoudre des problèmes, comprendre des mécanismes complexes, penser ergonomie fait partie de mon quotidien.</p>
                 <p><b>Diplôme:</b> Prépare actuellement un titre "développeur web et web mobile fullstack" à OnlineFormapro.</p>
                 <p id="age"></p>
+                <!--___________________________________________Script_______________________________________________________-->
                     <script>
                         const date = new Date();
                         const year = date.getFullYear();
                         const age = year - 2000;
                         document.getElementById('age').innerHTML = `<b>Âge:</b> ${age} ans`;
                     </script>
+                <!--_________________________________________/Script________________________________________________________-->
                 <p><b>Localisation:</b> Dijon</p>
             </div>
             <div id="mesReseaux">
