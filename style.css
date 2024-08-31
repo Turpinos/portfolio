@@ -449,8 +449,18 @@ footer{
     padding-block: 3rem;
 }
 
+footer h4{
+    margin: 1rem 0rem;
+    font-weight: 500;
+}
+
 footer p{
-    margin-block: 0.5rem;
+    margin-block: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+footer p span{
+    font-weight: 500;
 }
 
 /*_________________________________________/Footer______________________________________________*/
